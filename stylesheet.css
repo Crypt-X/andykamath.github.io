@@ -1,4 +1,3 @@
-
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -50,50 +49,144 @@
 }
 
 .computer-stuff{
-   background-color:blue;
-   height:750px;
+   background-color:black;
+   height:500px;
    background-size:100%;
+   -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+animation: myfirst 5s;
 }
 .computer-stuff .container{
       position: relative;
       top:100px;
 }
 .computer-stuff h1{
-    font-family: Andy;
+    font-family: 'Andale Mono';
     font-size:48px;
     font-weight:bold;
-    color:#fff;
-    text-align:right;
+    color:#00ff21;
+    text-align:center;
 }
 
 .computer-stuff p{
     font-family:'Agency FB';
     color:#fff;
     font-size: 28px;
-    text-align:right;
+    text-align:center;
 }
 
-.ecs h1
-{
-    font-family: Impact;
-    font-size:48px;
-    font-weight:bold;
+.computer-stuff h2{
+    font-family: Andy;
     color:#fff;
-    text-align:left;
+    text-align:center;
 }
-.ecs p
-{
-     font-family:'Agency FB';
+
+.computer-stuff ul{
+    font-family:'Agency FB';
     color:#fff;
     font-size: 28px;
-    text-align:left;
+    text-align:center;
 }
-.ecs .container{
+.computer-stuff li{
+    text-align:center;
+}
+
+.science{
+   background-color:Red;
+   height:500px;
+   background-size:100%;
+}
+.science .container{
       position: relative;
       top:100px;
 }
- .ecs{
-   background-color:orange;
+.science h1{
+    font-family: Batang;
+    font-size:48px;
+    font-weight:bold;
+    color:#ffd800;
+    text-align:center;
+}
+
+.science h2{
+    font-family: Andy;
+    color:#fff;
+    text-align:center;
+}
+
+.science p{
+    font-family:'Agency FB';
+    color:#fff;
+    font-size: 28px;
+    text-align:center;
+}
+.genius{
+   background-color:gray;
    height:500px;
-   background-size:500px;
+   background-size:100%;
+   -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+animation: myfirst 5s;
+}
+.genius .container{
+      position: relative;
+      top:100px;
+}
+.genius h1{
+    font-family: Times;
+    font-size:48px;
+    font-weight:bold;
+    color:#5a5a5a;
+    text-align:center;
+}
+
+.genius h2{
+    font-family: Andy;
+    color:#fff;
+    text-align:center;
+}
+
+.genius p{
+    font-family:'Agency FB';
+    color:#fff;
+    font-size: 28px;
+    text-align:center;
+}
+
+.genius ul{
+    font-family:'Agency FB';
+    color:#fff;
+    font-size: 28px;
+    text-align:center;
+}
+.genius li{
+    text-align:center;
+}
+
+.Freshman{
+   background-color:black;
+   height:500px;
+   background-size:100%;
+   }
+.Freshman .container{
+      position: relative;
+      top:100px;
+}
+.Freshman h1{
+    font-family: Andy;
+    font-size:48px;
+    font-weight:bold;
+    color:#fff;
+    text-align:center;
+}
+
+.Freshman h2{
+    font-family: Andy;
+    color:#fff;
+    text-align:center;
+}
+
+.Freshman p{
+    font-family:'Agency FB';
+    color:#fff;
+    font-size: 28px;
+    text-align:center;
 }

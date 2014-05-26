@@ -1,0 +1,148 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+.nav{
+    z-index:1;
+    position:fixed;
+    background-color:#fff;
+    width:100%;
+}
+.jumbotron {
+  background-image:url("http://www.hiveworkshop.com/forums/resource_images/1/sc2res_79/tn_files/Space.tga.jpg");
+  height: 500px;
+  background-attachment:fixed;
+  z-index:0;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.hacker {
+  background-color:black;
+  height: 500px;
+  background-attachment:fixed;
+  z-index:0;
+}
+
+.hacker .container {
+  position: relative;
+  top:100px;
+}
+
+.hacker h1 {
+  color: #00ff21;
+  font-size: 48px;  
+  font-family: 'Andale Mono', sans-serif;
+  font-weight: bold;
+  text-align:center;
+}
+
+.hacker p {
+  font-size: 28px;
+  color: #fff;
+  font-family:Andy;
+  text-align:center;
+}
+
+.scientist {
+  background-color:darkolivegreen;
+  height: 500px;
+  background-attachment:fixed;
+  z-index:0;
+}
+
+.scientist h1{
+    color: white;
+    font-size:48px;
+    font-family:Andy;
+    text-align:center;
+}
+.scientist .container {
+  position: relative;
+  top:100px;
+}
+
+.scientist p{
+    font-size:28px;
+    color: #fff;
+    font-family:'Agency FB';
+    text-align:center;
+}
+
+.genius{
+    background-color: purple;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    height:500px;
+}
+
+.genius h1{
+    font-family:Cambria;
+    font-size:36px;
+    color:#fff;
+    text-align:center;
+}
+.genius .container {
+  position: relative;
+  top:100px;
+}
+
+.genius p{
+    font-size:28px;
+    color: #fff;
+    font-family:Arial;
+    text-align:center;
+}
+
+.freshman
+{
+    background-color:#0094ff;
+    height:500px;
+}
+
+.freshman h1{
+    font-family:'Californian FB';
+    font-size:42px;
+    color:black;
+    text-align:center;
+}
+
+.freshman .container{
+    position:relative;
+    top:100px;
+}
+
+.freshman p{
+    font-size:28px;
+    color:#fff;
+    font-family:Gisha;
+    text-align:center;
+}
+
+.bottom{
+    height:250px;
+    background-image:url("http://www.hiveworkshop.com/forums/resource_images/1/sc2res_79/tn_files/Space.tga.jpg");
+    background-attachment:fixed;
+}

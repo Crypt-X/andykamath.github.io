@@ -52,9 +52,8 @@
 }
 
 .hacker h1 {
-  color: #00ff21;
   font-size: 48px;  
-  font-family: 'Andale Mono', sans-serif;
+  font-family: 'Andale Mono', courier;
   font-weight: bold;
   text-align:center;
   background-image: url("http://boscosgrindhouse.files.wordpress.com/2012/07/the-matrix.jpeg?w=900&h=675");

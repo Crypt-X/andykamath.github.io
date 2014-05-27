@@ -10,16 +10,16 @@
   display: inline;
 }
 .nav{
-    z-index:1;
+    z-index:1000;
     position:fixed;
     background-color:#fff;
     width:100%;
 }
 .jumbotron {
   background-image:url("http://www.hiveworkshop.com/forums/resource_images/1/sc2res_79/tn_files/Space.tga.jpg");
-  height: 500px;
+  height: 750px;
   background-attachment:fixed;
-  z-index:0;
+  z-index:1;
 }
 
 .jumbotron .container {
@@ -141,8 +141,20 @@
     text-align:center;
 }
 
-.bottom{
-    height:250px;
-    background-image:url("http://www.hiveworkshop.com/forums/resource_images/1/sc2res_79/tn_files/Space.tga.jpg");
-    background-attachment:fixed;
+.email .container {
+  position: relative;
+  top:100px;
+}
+
+.email h1{
+    font-size:72px;
+    font-family:'Agency FB';
+    text-align:center;
+}
+
+.email p{
+    font-size:48px;
+    font-family:'Agency FB';
+    text-align:right;
+    right:100px;
 }

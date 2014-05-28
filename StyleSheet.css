@@ -16,11 +16,28 @@
     width:100%;
 }
 .jumbotron {
-  background-image:url("http://hdwalldownloads.com/wp-content/uploads/2014/02/Star-Wallpaper-Image-Picture.jpg");
-  height: 750px;
+  background-image:url("http://www.hiveworkshop.com/forums/resource_images/1/sc2res_79/tn_files/Space.tga.jpg");
+  height: 800px;
   background-attachment:fixed;
   z-index:1;
+  text-align:center;
+  align-items:center;
 }
+
+    .jumbotron .proimage {
+     margin-left:auto;
+     top:100px;
+    margin-right:auto;
+    width:70%;
+           width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        background: url(https://pbs.twimg.com/profile_images/432627716135739392/_rRmi16-.jpeg) no-repeat;
+        background-position: center;
+        align-self: center;
+    }
 
 .jumbotron .container {
   position: relative;
@@ -39,121 +56,158 @@
   color: #fff;
 }
 
-.hacker {
-  background-color:black;
-  height: 500px;
-  background-attachment:fixed;
-  z-index:0;
-}
-
-.hacker .container {
-  position: relative;
-  top:100px;
-}
-
-.hacker h1 {
-  font-size: 48px;  
-  font-family: 'Andale Mono', courier;
-  font-weight: bold;
-  text-align:center;
-  background-image: url("http://boscosgrindhouse.files.wordpress.com/2012/07/the-matrix.jpeg?w=900&h=675");
-  background-attachment: fixed;
-  color: #fff;
-}
-
-.hacker p {
-  font-size: 28px;
-  color: #fff;
-  font-family:Andy;
-  text-align:center;
-}
-
-.scientist {
-  background-color:darkolivegreen;
-  height: 500px;
-  background-attachment:fixed;
-  z-index:0;
-}
-
-.scientist h1{
-    color: white;
-    font-size:48px;
-    font-family:Andy;
-    text-align:center;
-}
-.scientist .container {
-  position: relative;
-  top:100px;
-}
-
-.scientist p{
-    font-size:28px;
-    color: #fff;
-    font-family:'Agency FB';
-    text-align:center;
-}
-
-.genius{
-    background-color: purple;
-    background-repeat:no-repeat;
-    background-size:100% 100%;
-    height:500px;
-}
-
-.genius h1{
-    font-family:Cambria;
-    font-size:36px;
-    color:#fff;
-    text-align:center;
-}
-.genius .container {
-  position: relative;
-  top:100px;
-}
-
-.genius p{
-    font-size:28px;
-    color: #fff;
-    font-family:Arial;
-    text-align:center;
-}
-
-.freshman
+.jumbotron .lol
 {
-    background-color:#0094ff;
-    height:500px;
+    top:50px;
 }
 
-.freshman h1{
-    font-family:'Californian FB';
-    font-size:42px;
-    color:black;
-    text-align:center;
+.education 
+{
+  background-image:url(01Prov.png);
+  height: 600px;
+  z-index:1;
+  text-align:center;
+  align-items:center;
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
-.freshman .container{
+.education .container
+{
     position:relative;
     top:100px;
 }
 
-.freshman p{
-    font-size:28px;
-    color:#fff;
-    font-family:Gisha;
-    text-align:center;
+.education h1
+{
+    font-family:'Comic Sans MS';
+    font-size:42px;
 }
 
-.email .container {
-  position: relative;
-  top:100px;
+.education h2
+{
+    font-family:'Comic Sans MS';
+    font-size:30px;
 }
 
-.email h1{
-    font-size:72px;
+.education p
+{
+    font-family:Andy;
+    font-size:24px
+}
+
+.hacker 
+{
+  background-image:url(111cs.png);
+  height: 600px;
+  z-index:1;
+  text-align:center;
+  align-items:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.hacker .container
+{
+    position:relative;
+    top:100px;
+}
+
+.hacker h1
+{
+    font-family:'Andale Mono';
+    font-size:42px;
+    color:black;
+}
+
+.hacker h2
+{
+    font-family:sans-serif;
+    font-size:30px;
+    color:black;
+    font-weight:bolder;
+}
+
+.hacker p
+{
     font-family:'Agency FB';
-    text-align:center;
+    font-size:24px;
+    color:black;
+    font-weight:bolder;
 }
 
+.latin 
+{
+  background-image:url(http://www.nonprints.com/UploadPic/George%20Inness/big/Rome.jpg);
+  height: 250px;
+  z-index:1;
+  text-align:center;
+  align-items:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.latin .container
+{
+    position:relative;
+    top:100px;
+}
+
+.latin h1
+{
+    font-family:'Edwardian Script ITC';
+    font-size:42px;
+    color:black;
+}
+
+.latin p
+{
+    text-align:right;
+    color:#fff;
+    font-size:28px;
+}
+
+.ec
+{
+    background-size:cover;
+    height:600px;
+    background-image:url(Picture2.png);
+    text-align:center;
+    background-repeat:no-repeat;
+}
+.ec .container
+{
+    position:relative;
+    top:100px;
+}
+
+.ec h1
+{
+    font-family:'Edwardian Script ITC';
+    font-size:58px;
+    color:black;
+}
+
+.ec h2
+{
+    font-family:Andy;
+    font-size:36px;
+}
+
+.ec p
+{
+    text-align:center;
+    color:black;
+    font-size:28px;
+    font-family:'Agency FB'
+}
+
+.email h1 {
+    font-size: 72px;
+    font-family: 'Agency FB';
+    text-align: center;
+}
 .email p{
     font-size:48px;
     font-family:'Agency FB';

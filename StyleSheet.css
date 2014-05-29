@@ -184,14 +184,14 @@
 
 .ec h1
 {
-    font-family:'Edwardian Script ITC';
+    font-family:Tangerine;
     font-size:58px;
     color:black;
 }
 
 .ec h2
 {
-    font-family:Andy;
+    font-family:Ubuntu;
     font-size:36px;
 }
 
@@ -200,17 +200,17 @@
     text-align:center;
     color:black;
     font-size:28px;
-    font-family:'Agency FB'
+    font-family:Ubuntu
 }
 
 .email h1 {
     font-size: 72px;
-    font-family: 'Agency FB';
+    font-family: Ubuntu;
     text-align: center;
 }
 .email p{
     font-size:48px;
-    font-family:'Agency FB';
+    font-family:Ubuntu;
     text-align:right;
     right:100px;
 }

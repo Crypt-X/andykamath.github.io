@@ -15,29 +15,32 @@
     background-color:#fff;
     width:100%;
 }
+
 .jumbotron {
-  background-image:url("http://www.hiveworkshop.com/forums/resource_images/1/sc2res_79/tn_files/Space.tga.jpg");
+  background-image:url(https://scontent-b-atl.xx.fbcdn.net/hphotos-xpf1/t31.0-8/10320901_255624867976428_7277640312580572680_o.jpg);
   height: 800px;
-  background-attachment:fixed;
   z-index:1;
   text-align:center;
   align-items:center;
+  background-size:cover;
+  background-attachment:fixed;
 }
 
-    .jumbotron .proimage {
-     margin-left:auto;
-     top:100px;
-    margin-right:auto;
-    width:70%;
-           width: 300px;
-        height: 300px;
-        border-radius: 150px;
-        -webkit-border-radius: 150px;
-        -moz-border-radius: 150px;
-        background: url(https://pbs.twimg.com/profile_images/432627716135739392/_rRmi16-.jpeg) no-repeat;
-        background-position: center;
-        align-self: center;
-    }
+.jumbotron .proimage {
+  margin-left:auto;
+  top:100px;
+  margin-right:auto;
+  width:70%;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(https://pbs.twimg.com/profile_images/432627716135739392/_rRmi16-.jpeg) no-repeat;
+  background-position: center;
+  align-self: center;
+  background-size:cover;
+}
 
 .jumbotron .container {
   position: relative;
@@ -61,156 +64,118 @@
     top:50px;
 }
 
-.education 
-{
-  background-image:url(01Prov.png);
-  height: 600px;
-  z-index:1;
-  text-align:center;
-  align-items:center;
-  background-repeat:no-repeat;
-  background-size:cover;
-}
-
-.education .container
-{
-    position:relative;
-    top:100px;
-}
-
-.education h1
-{
-    font-family:'Comic Sans MS';
-    font-size:42px;
-}
-
-.education h2
-{
-    font-family:'Comic Sans MS';
-    font-size:30px;
-}
-
-.education p
-{
-    font-family:Ubuntu;
-    font-size:24px
-}
-
-.hacker 
-{
-  background-image:url(111cs.png);
-  height: 600px;
-  z-index:1;
-  text-align:center;
-  align-items:center;
-  background-repeat:no-repeat;
-  background-size:cover;
-}
-
-.hacker .container
-{
-    position:relative;
-    top:100px;
-}
-
-.hacker h1
-{
-    font-family:'Andale Mono';
-    font-size:42px;
-    color:black;
-}
-
-.hacker h2
-{
-    font-family:sans-serif;
-    font-size:30px;
-    color:black;
-    font-weight:bolder;
-}
-
-.hacker p
-{
-    font-family:Ubuntu;
-    font-size:24px;
-    color:black;
-    font-weight:bolder;
-}
-
-.latin 
-{
-  background-image:url(http://www.nonprints.com/UploadPic/George%20Inness/big/Rome.jpg);
-  height: 250px;
-  z-index:1;
-  text-align:center;
-  align-items: center;
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-attachment:fixed;
-}
-
-.latin .container
-{
-    position:relative;
-    top:100px;
-}
-
-.latin h1
-{
-    font-family:'Tangerine';
-    font-size:42px;
-    color:black;
-}
-
-.latin p
-{
-    text-align:right;
-    color:#fff;
-    font-size:28px;
-}
-
-.ec
-{
-    background-size:cover;
-    height:600px;
-    background-image:url(Picture2.png);
-    text-align:center;
-    background-repeat:no-repeat;
-}
-.ec .container
-{
-    position:relative;
-    top:100px;
-}
-
-.ec h1
-{
-    font-family:Tangerine;
-    font-size:58px;
-    color:black;
-}
-
-.ec h2
-{
-    font-family:Ubuntu;
-    font-size:36px;
-}
-
-.ec p
-{
-    text-align:center;
-    color:black;
-    font-size:28px;
-    font-family:Ubuntu
-}
-
 .email h1 {
     font-size: 72px;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu';
     text-align: center;
 }
 .email p{
     font-size:48px;
-    font-family:Ubuntu;
+    font-family:'Ubuntu';
     text-align:right;
     right:100px;
+}
+
+    .facebook {
+     margin-left:auto;
+     top:100px;
+    margin-right:auto;
+    width:70%;
+           width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        -webkit-border-radius: 80px;
+        -moz-border-radius: 80px;
+        background: url(fb.jpg) no-repeat;
+        background-position: center;
+        align-self: center;
+        background-size:cover;
+    }
+
+    .twitter {
+     margin-left:auto;
+     top:100px;
+    margin-right:auto;
+    width:70%;
+           width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        -webkit-border-radius: 80px;
+        -moz-border-radius: 80px;
+        background: url(twitter.jpg) no-repeat;
+        background-position: center;
+        align-self: center;
+        background-size:cover;
+    }
+
+    .linkedin {
+     margin-left:auto;
+     top:100px;
+    margin-right:auto;
+    width:70%;
+           width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        -webkit-border-radius: 80px;
+        -moz-border-radius: 80px;
+        background: url(linkedin.jpg) no-repeat;
+        background-position: center;
+        align-self: center;
+        background-size:cover;
+    }
+.scroll
+{
+         margin-left:auto;
+     top:100px;
+    margin-right:auto;
+    width:70%;
+           width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        -webkit-border-radius: 80px;
+        -moz-border-radius: 80px;
+        background: url(arrow.jpg) no-repeat;
+        background-position: center;
+        align-self: center;
+        background-size:cover;
+
+}
+.major
+{
+    text-align:center;
+    font-family:Impact;
+    background-color:red;
+    color:#fff;
+    font-size:72px;
+}
+
+.col-lg-3
+{
+    height:250px;
+}
+
+.dev
+{
+    background-image:url('Screenshot 2014-05-31 18.17.42.png');
+    height:375px;
+}
+.major
+{
+    text-align:center;
+    font-family:Impact;
+    background-color:red;
+    color:#fff;
+    font-size:72px;
+}
+
+.col-lg-3
+{
+    height:250px;
+}
+
+.education
+{
+    background-image:url(01Prov.png);
+    height:375px;
+    background-size:cover;
 }
